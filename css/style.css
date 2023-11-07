@@ -17,8 +17,6 @@ body{
     max-width: 700px;
 }
 
-
-
 .display{
     width: 100%;
     margin-top: 2.5rem;
@@ -33,5 +31,45 @@ body{
 }
 
 .container h1{
-    
+font-weight: 500;
+font-size: 2rem ;
 }
+
+.container h1 span {
+    color: rebeccapurple ;
+    border-bottom: 4px black;
+    padding-bottom: 5px;
+}
+
+.display img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.display input {
+    border: 0;
+    outline: 0;
+    font-size: 1.2rem;
+}
+
+.container button img {
+    width: 1.5rem;
+    margin-right: 0.6rem;
+}
+
+.container button {
+    border: 0;
+    outline: 0;
+    background: red;
+    color: yellow;
+    font-size: 1.375px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.6rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+
